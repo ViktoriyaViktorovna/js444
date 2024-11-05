@@ -3,7 +3,7 @@
 // console.log(typeof age);
 
 // let city = 'Ufa'
-// console.log(typeof city);
+// console.log(typeof city);gjftgujftu
 
 // let statusUser = false
 // console.log(typeof 'statusUser')
@@ -92,17 +92,32 @@
     // work1<=20000 ? console.log('вам отказ') : console.log('Вам одобрено');
    
    
-    let work1 = prompt('укажите зп')
-switch (work1) {
-    case 20000:
-        alert('вам отказ');
-    case 30000:
-        alert('нужен поручитель');
-    case 50000:
-        alert('вам одобрено');
-        default:
-            alert('нужны все документы')
+//     let work1 = prompt('укажите зп')
+// switch (work1) {
+//     case 20000:
+//         alert('вам отказ');
+//     case 30000:
+//         alert('нужен поручитель');
+//     case 50000:
+//         alert('вам одобрено');
+//         default:
+//             alert('нужны все документы')
+// }
+
+let age = prompt('сколько вам лет,');
+if(age >=0 && age <2 ){
+    console.log('вы ребенок');
 }
+else if( age>=12 && age<18){
+    console.log("Вы подросток")
+}
+else if( age>=18 && age<60){
+    console.log("Вы взрослый")
+}
+else if( age>60){
+    console.log("Вы пенсионер")
+}
+
 
 
 
