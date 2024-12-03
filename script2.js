@@ -1,4 +1,42 @@
+// const pasport = true    //если тут false то в уфу
+// const ticket = true
+// if(pasport && ticket){
+//     console.log('летим в турцию')
+// }else{
+//     console.log('едем в уфу')
+// }
+
+// const pasport = true    
+// const ticket =true
+// const viza = true
+
+// if(viza && ticket&&pasport){
+//     console.log('летим в америка')
+// }
+// else if(pasport && ticket){
+//     console.log('летим в турция')  
+// }
+
+// else{
+//     console.log('едем в уфу')
+// }
+
+// let chi = prompt('укажите число')
+// for(let i = 1; i <= chi; i++){
+//   if(i % 2==0){        //выводит четные
+//    console.log(i)}
+// }
+
+// let chi = prompt('укажите число')
+// for(let i = 1; i <= chi; i++){
+//   if(i % 2==1){                 //выводит нечетные
+//    console.log(i)}
+// }
+
+
 // typeof
+
+
 // let age = 30
 // console.log(typeof age);
 
@@ -104,25 +142,16 @@
 //             alert('нужны все документы')
 // }
 
-let age = prompt('сколько вам лет,');
-if(age >=0 && age <2 ){
-    console.log('вы ребенок');
-}
-else if( age>=12 && age<18){
-    console.log("Вы подросток")
-}
-else if( age>=18 && age<60){
-    console.log("Вы взрослый")
-}
-else if( age>60){
-    console.log("Вы пенсионер")
-}
-
-
-
-
-
-
-
-
-
+// let age = prompt('сколько вам лет,');
+// if(age >=0 && age <2 ){
+//     console.log('вы ребенок');
+// }
+// else if( age>=12 && age<18){
+//     console.log("Вы подросток")
+// }
+// else if( age>=18 && age<60){
+//     console.log("Вы взрослый")
+// }
+// else if( age>60){
+//     console.log("Вы пенсионер")
+// }
